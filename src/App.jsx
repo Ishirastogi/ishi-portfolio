@@ -13,17 +13,17 @@ const App = () => {
         </div>
         
         {/* Flex container for About, Works, and Experience */}
-        <div className="flex">
-          <div className="flex-auto w-1/3 p-4 overflow-y-auto">
+    
+          <div className="flex-auto p-4 overflow-y-auto">
             <About />
           </div>
-          <div className="flex-auto w-1/3 p-4 overflow-y-auto">
+          <div className="flex-auto p-4 overflow-y-auto">
             <Works />
           </div>
           {/* <div className="flex-auto w-1/3 p-4 overflow-y-auto">
             <Experience />
           </div> */}
-        </div>
+        
 
         {/* <Tech /> */}
         <Feedbacks />
